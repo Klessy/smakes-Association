@@ -1,0 +1,155 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+/* reset default css */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+li{
+  list-style: none;
+}
+
+ a {
+  text-decoration: none;
+}
+
+/* css for all pages */
+
+:root {
+  --primary: #B78D65;
+  --light: #F8F8F8;
+  --dark: #252525;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  --font-base: 'Poppins', serif;
+  --font-alt: 'Raleway', sans-serif;
+  --font-main: 'Montserrat', sans-serif;
+  --font-logo: 'Cedarville', Cursive;
+  --font-header: 'Teko', Poppins;
+}
+
+.container {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.font__poppins {
+  font-family: var(--font-alt);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.font__raleway {
+  font-family: var(--font-base);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+.font__main {
+  font-family: var(--font-main);
+}
+
+.font__header {
+  font-family: var(--font-header);
+  line-height: 1;
+}
+
+.font__logo {
+  font-family: var(--font-logo);
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+/* Carousel */
+
+.slide-container {
+ width: 100%;
+ height: 100%;
+}
+ 
+.inner-carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #B78D65 #ffffff;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #F8F8F8;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #F8F8F8;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #F8F8F8;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #B78D65;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #B78D65;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #B78D65;
+}
+
